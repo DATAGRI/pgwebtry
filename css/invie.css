@@ -4,13 +4,14 @@
 
 /* selector universal */
 *{
-    border: 1px solid red;
+    border: 1px solid  rgb(158, 113, 55);
     margin: 10px;
 }
 /* selector de etiqueta */
 header {
     background: blanchedalmond;
     color: chocolate;
+    border: 3px solid springgreen;
 }
 
 section {
@@ -31,6 +32,7 @@ section h2 {
 
 .title-a {
    background: cornflowerblue; 
+   color: darkblue;
 }
 
 .title-b {
@@ -42,3 +44,9 @@ section h2 {
     border: 3px cornsilk;
     color: cadetblue
 }
+
+#portada h1 {
+    color: skyblue;
+    border: 2px solid sienna;
+}
+
