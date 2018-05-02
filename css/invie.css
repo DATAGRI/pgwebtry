@@ -1,52 +1,37 @@
-/* tipo de selector {
-   propiedad valor: burlywood;
-} */
+.titulo {
+    font-size: 70px;
 
-/* selector universal */
-*{
-    border: 1px solid  rgb(158, 113, 55);
-    margin: 10px;
-}
-/* selector de etiqueta */
-header {
-    background: blanchedalmond;
-    color: chocolate;
-    border: 3px solid springgreen;
 }
 
-section {
-    background: rgb(48, 163, 163);
+.resumen {
+    font-size: 24px;
 }
 
-/* selector descendente */
-
-article h3 {
-    color: blueviolet;
-}
-
-section h2 {
-    color: crimson;
+.titulo2 {
+    font-size: 35px; 
     
 }
-/* selectores de clase */
 
-.title-a {
-   background: cornflowerblue; 
-   color: darkblue;
+.guitarra1 {
+    font-size: 50px;
 }
 
-.title-b {
-    background: chocolate;
+.guitarra2{
+    font-size: 50px;
 }
 
-#guitarras {
-    background: darkgoldenrod;
-    border: 3px cornsilk;
-    color: cadetblue
+.portada{
+    background-image: url('../images/background.png');
+    color: whitesmoke;
 }
 
-#portada h1 {
-    color: skyblue;
-    border: 2px solid sienna;
+.guitarras{
+    color: #1F313C;
 }
 
+.menu{
+    font-size: 24px;
+}
+
+
+    
