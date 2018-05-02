@@ -1,4 +1,44 @@
-body {
-    background: burlywood
+/* tipo de selector {
+   propiedad valor: burlywood;
+} */
+
+/* selector universal */
+*{
+    border: 1px solid red;
+    margin: 10px;
+}
+/* selector de etiqueta */
+header {
+    background: blanchedalmond;
+    color: chocolate;
+}
+
+section {
+    background: rgb(48, 163, 163);
+}
+
+/* selector descendente */
+
+article h3 {
+    color: blueviolet;
+}
+
+section h2 {
+    color: crimson;
     
+}
+/* selectores de clase */
+
+.title-a {
+   background: cornflowerblue; 
+}
+
+.title-b {
+    background: chocolate;
+}
+
+#guitarras {
+    background: darkgoldenrod;
+    border: 3px cornsilk;
+    color: cadetblue
 }
