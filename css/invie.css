@@ -14,6 +14,9 @@ body {
     margin-top: 70px;
 }
 
+.titulo span {
+    text-decoration: underline;
+}
 .resumen {
     font-size: 24px;
     font-family: 'Allerta', sans-serif;
@@ -35,8 +38,10 @@ body {
 
 .portada{
     background-image: url('../images/background.png');
+    background-size: cover;
     color: whitesmoke;
     padding: 20px;
+    height: 500px;
     /* width: 800px;
     margin: auto; */
 }
@@ -50,6 +55,9 @@ body {
 .menu{
     font-size: 24px;
     display: inline-block;
+    position: absolute;
+    right: 0;
+
 }
 
 .menu li {
@@ -59,10 +67,24 @@ body {
 
 .logotipo {
     display: inline-block;
+    margin-left: 0;
+}
+
+.menu a {
+    color: white;
 }
 
 .boton  {
     margin-bottom: 70px;
+    border-radius: 12px;
+    background: #fd324e;
+    color: white;
+    border: tan;
+    padding: 7px 12px;
+    font-size: 18px;
+    background: linear-gradient(to left, #fe344e, #ff7250);
+    cursor: pointer;
+    text-decoration: none;
 }
 
 
@@ -73,29 +95,46 @@ body {
     margin: 10px;
 } */
 
-.contenedor {
+.contenedor  {
     width: 800px;
     margin: auto;
+    /* justify-content: center; */
+}
+
+.contened{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .right img {
     float: right;
+    position: relative;
+    top: -127px;
 }
 
 .left img {
-    float: left
+    float: left;
+    position: relative;
+    top: 10px;
 }
 
 .guitarras {
+    height: 228px;
     margin: 10px;
     padding: 10px;
-    overflow: hidden;
+    /* overflow: hidden; */
     border: 1px solid red;
+    border-radius: 8px;
+
 }
 
 .contenedor-guitarra-b {
     margin-left: 370px;
     padding-right: 20px;
+    position: relative;
+    bottom: 90px;
 }
 
 .contenedor-guitarra-a {
@@ -105,4 +144,115 @@ body {
 
 .guitarra ol {
     padding: 0;
+}
+
+.header {
+  position: relative;  
+}
+
+.footer {
+  background: #273b47;
+  padding: 50px 10px;
+}
+
+.contacto {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    /* margin: 10px 10px 10px 0;  */
+    align-items: flex-start;
+    height: 200px;
+    
+}
+.contacto img {
+    display: block;
+}
+
+.contacto strong {
+    display: block;
+    margin: 10px;
+}
+
+.contacto span {
+    margin: 7px;
+}
+
+.contacto a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer .contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario {
+    display: flex;
+    width: 400px;
+    color: white;
+   
+}
+
+.col1, .col2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col1 {
+    margin-right: 15px; 
+}
+
+.col2 {
+    align-items: flex-start;
+}
+
+.intereses label {
+    font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses {
+    margin-bottom: 10px;
+}
+
+.sexo {
+    margin-top: 10px;
+}
+
+.f-tabla {
+    width: 100%;
+    margin: 10px;
+}
+
+th {
+    background: #273b47;
+    color: beige;
+    padding: 10px 20px;
+    text-align: left;
+
+}
+
+td {
+    padding: 20px;
+}
+
+table, td, th {
+    border: 2px solid #273b47;
+    border-collapse: collapse;
+}
+
+.menu li:before{
+  content: '⤞';
+  font-size: 25px;
+  line-height: 20px;
+  color:white;
+}
+
+input, textarea {
+ outline: 0;
+}
+
+input:focus, textarea:focus {
+background: navajowhite;
 }
